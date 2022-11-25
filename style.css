@@ -1,0 +1,40 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td{
+    border: 1px solid gray;
+    text-align: right;
+}
+th{
+    border: 1px solid gray;
+    text-align: left;
+}
+tbody tr:nth-child(1){
+    background-color: lightblue;
+    font-size: 20px;
+}
+tbody tr:nth-child(even){
+    background-color: rgba(217, 221, 223, 0.925);
+}
+
+thead tr{
+    background-color: lightblue;
+    color: antiquewhite;
+    padding: 20px;
+}
+.osszevont{
+    background-color: brown;
+}
+
+.vastag{
+    font-weight: bold;
+    text-align: center;
+}
+@media screen and (max-width:500px) {
+    article{
+        overflow-x: scroll;
+    }
+}
